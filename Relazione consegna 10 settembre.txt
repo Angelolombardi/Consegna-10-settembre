@@ -1,0 +1,7 @@
+Dato l'esercizio abbiamo trovato l'OS della macchina Metasploitable avente come IP 192.168.50.151 usando il comando nmap -O più l'ip della meta e possiamo notare la versione Linux 2.6.9.
+
+Per il Syn scan invece abbiamo usato il comando nmap -sS più l'ip della meta e possiamo notare che ci ha messo 0.10 secondi in più rispetto alla scansione tcp proprio perché al syn chiude la comunicazione.
+
+Per quanto riguarda la version detection abbiamo usato il comando nmap -sV cosi da darci la versione della macchina metasploitable.
+
+Per quanto riguarda la versione di windows abbiamo usato lo stesso comando, ovvero nmap -O più l'ip della macchina windows ovvero 192.168.50.154  e possiamo vedere che ci da OS Windows 10
